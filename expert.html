@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Custom PC Builder</title>
+  <meta name="description" content="Build your own custom PC with our easy-to-use online configurator.">
+  <link rel="stylesheet" href="style_shop_pc.css">
+</head>
+
+<body>
+  <header>
+    <h1>Custom PC Builder</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Build Your PC</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section id="home">
+      <h2>Customize UR PC here:</h2>
+      <button><a href="#build">Build Your PC Now</a></button>
+    </section>
+    <section id="build">
+      <h2>Build Your PC</h2>
+      <form>
+        <fieldset>
+          <legend>Processor</legend>
+          <input type="radio" id="processor1" name="processor" value="i5">
+          <label for="processor1">Intel Core i5</label>
+          <br>
+          <input type="radio" id="processor2" name="processor" value="i7">
+          <label for="processor2">Intel Core i7</label>
+          <br>
+          <input type="radio" id="processor3" name="processor" value="i9">
+          <label for="processor3">Intel Core i9</label>
+          <br>
+          <input type="radio" id="processor4" name="processor" value="ryzen5">
+          <label for="processor4">AMD Ryzen 5</label>
+          <br>
+          <input type="radio" id="processor5" name="processor" value="ryzen7">
+          <label for="processor5">AMD Ryzen 7</label>
+          <br>
+          <input type="radio" id="processor6" name="processor" value="ryzen9">
+          <label for="processor6">AMD Ryzen 9</label>
+        </fieldset>
+        <fieldset>
+          <legend>Memory</legend>
+          <input type="radio" id="memory1" name="memory" value="8gb">
+          <label for="memory1">8GB DDR4</label>
+          <br>
+          <input type="radio" id="memory2" name="memory" value="16gb">
+          <label for="memory2">16GB DDR4</label>
+          <br>
+          <input type="radio" id="memory3" name="memory" value="32gb">
+          <label for="memory3">32GB DDR4</label>
+        </fieldset>
+        <fieldset>
+          <legend>Storage</legend>
+          <input type="radio" id="storage1" name="storage" value="ssd">
+          <label for="storage1">256GB SSD</label>
+          <br>
+          <input type="radio" id="storage2" name="storage" value="ssd+hdd">
+          <label for="storage2">256GB SSD + 1TB HDD</label>
+          <br>
+          <input type="radio" id="storage3" name="storage" value="hdd">
+          <label for="storage3">2TB HDD</label>
+        </fieldset>
+        <fieldset>
+          <legend>Graphics Card</legend <label for="graphics1">NVIDIA GTX 1050</label>
+          <br>
+          <input type="radio" id="graphics2" name="graphics" value="gtx1650">
+          <label for="graphics2">NVIDIA GTX 1650</label>
+          <br>
+          <input type="radio" id="graphics3" name="graphics" value="rtx3060">
+          <label for="graphics3">NVIDIA RTX 3060</label>
+          <br>
+          <input type="radio" id="graphics4" name="graphics" value="rx5600">
+          <label for="graphics4">AMD RX 5600</label>
+          <br>
+          <input type="radio" id="graphics5" name="graphics" value="rx6800">
+          <label for="graphics5">AMD RX 6800</label>
+        </fieldset>
+        <fieldset>
+          <legend>Power Supply</legend>
+          <input type="radio" id="power1" name="power" value="450w">
+          <label for="power1">450W</label>
+          <br>
+          <input type="radio" id="power2" name="power" value="650w">
+          <label for="power2">650W</label>
+          <br>
+          <input type="radio" id="power3" name="power" value="850w">
+          <label for="power3">850W</label>
+        </fieldset>
+        <fieldset>
+          <legend>Case</legend>
+          <input type="radio" id="case1" name="case" value="midtower">
+          <label for="case1">Mid Tower</label>
+          <br>
+          <input type="radio" id="case2" name="case" value="fulltower">
+          <label for="case2">Full Tower</label>
+          <br>
+          <input type="radio" id="case3" name="case" value="itx">
+          <label for="case3">Mini ITX</label>
+        </fieldset>
+        <button type="submit">Add to Cart</button>
+      </form>
+    </section>
